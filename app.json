@@ -8,36 +8,42 @@
       "description": "Enter your GitHub Personal Access Token with repo scope",
       "required": true
     },
-    "SESSION_ID": {
-      "description": "Enter your WhatsApp Session ID",
-      "required": true
-    },
-    "BOT_NUMBER": {
-      "description": "Enter your Bot WhatsApp Number with country code (e.g. 923001234567)",
-      "required": true
-    },
-    "PREFIX": {
-      "description": "Enter your bot command prefix (default: .)",
-      "required": false
-    },
-    "OWNER_NAME": {
-      "description": "Enter Owner Name",
-      "required": false
-    },
-    "BOT_NAME": {
-      "description": "Enter Bot Name",
-      "required": false
-    },
-    "AUTO_STATUS_VIEW": {
-      "description": "Enable auto status view? (true/false)",
-      "required": false
-    },
-    "ALWAYS_ONLINE": {
-      "description": "Keep bot always online? (true/false)",
-      "required": false
-    }
-  },
-  "scripts": {
-    "postdeploy": "npm install && npm start"
+    "SESSION_ID": { "description": "Your WhatsApp Session ID", "required": true },
+    "AUTO_STATUS_SEEN": { "description": "Auto see statuses (true/false)", "required": false },
+    "AUTO_STATUS_REPLY": { "description": "Auto reply on status (true/false)", "required": false },
+    "AUTO_STATUS_REACT": { "description": "Auto react on status (true/false)", "required": false },
+    "AUTO_STATUS_MSG": { "description": "Message for auto status reply", "required": false },
+    "WELCOME": { "description": "Enable welcome/goodbye msgs (true/false)", "required": false },
+    "ADMIN_EVENTS": { "description": "Notify admin events (true/false)", "required": false },
+    "ANTI_LINK": { "description": "Enable anti-link (true/false)", "required": false },
+    "MENTION_REPLY": { "description": "Reply when mentioned (true/false)", "required": false },
+    "MENU_IMAGE_URL": { "description": "Image URL for menu", "required": false },
+    "PREFIX": { "description": "Bot command prefix", "required": false },
+    "BOT_NAME": { "description": "Bot name", "required": false },
+    "STICKER_NAME": { "description": "Sticker pack name", "required": false },
+    "CUSTOM_REACT": { "description": "Enable custom emoji react (true/false)", "required": false },
+    "CUSTOM_REACT_EMOJIS": { "description": "Custom react emojis", "required": false },
+    "DELETE_LINKS": { "description": "Delete links automatically (true/false)", "required": false },
+    "OWNER_NUMBER": { "description": "Bot owner number", "required": true },
+    "OWNER_NAME": { "description": "Owner name", "required": false },
+    "DESCRIPTION": { "description": "Bot description", "required": false },
+    "ALIVE_IMG": { "description": "Alive command image URL", "required": false },
+    "LIVE_MSG": { "description": "Alive message text", "required": false },
+    "READ_MESSAGE": { "description": "Mark all msgs as read (true/false)", "required": false },
+    "AUTO_REACT": { "description": "Auto react on all msgs (true/false)", "required": false },
+    "ANTI_BAD": { "description": "Enable anti-bad words (true/false)", "required": false },
+    "MODE": { "description": "Bot mode (public/private)", "required": false },
+    "ANTI_LINK_KICK": { "description": "Kick on link share (true/false)", "required": false },
+    "AUTO_VOICE": { "description": "Auto send voices (true/false)", "required": false },
+    "AUTO_STICKER": { "description": "Auto send stickers (true/false)", "required": false },
+    "AUTO_REPLY": { "description": "Auto reply messages (true/false)", "required": false },
+    "ALWAYS_ONLINE": { "description": "Always online (true/false)", "required": false },
+    "PUBLIC_MODE": { "description": "Public mode (true/false)", "required": false },
+    "AUTO_TYPING": { "description": "Auto typing (true/false)", "required": false },
+    "READ_CMD": { "description": "Mark cmds as read (true/false)", "required": false },
+    "DEV": { "description": "Developer WhatsApp number", "required": false },
+    "ANTI_VV": { "description": "Anti view-once (true/false)", "required": false },
+    "ANTI_DEL_PATH": { "description": "Path for deleted msgs", "required": false },
+    "AUTO_RECORDING": { "description": "Auto recording (true/false)", "required": false }
   }
 }
