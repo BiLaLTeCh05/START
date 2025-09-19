@@ -1,0 +1,23 @@
+{
+  "name": "Bilal WhatsApp Bot",
+  "description": "Deploy Bilal-MD WhatsApp Bot (Private repo clone) on Heroku",
+  "repository": "https://github.com/BilalTech05/BILAL-MD",
+  "keywords": ["whatsapp", "bot", "heroku"],
+  "env": {
+    "PRIVATE_REPO_TOKEN": {
+      "description": "Enter your GitHub Personal Access Token with repo scope",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Enter your Heroku API Key",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Enter your Heroku App Name",
+      "required": true
+    }
+  },
+  "scripts": {
+    "postdeploy": "npm install && npm start"
+  }
+}
