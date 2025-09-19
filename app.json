@@ -8,13 +8,33 @@
       "description": "Enter your GitHub Personal Access Token with repo scope",
       "required": true
     },
-    "HEROKU_API_KEY": {
-      "description": "Enter your Heroku API Key",
+    "SESSION_ID": {
+      "description": "Enter your WhatsApp Session ID",
       "required": true
     },
-    "HEROKU_APP_NAME": {
-      "description": "Enter your Heroku App Name",
+    "BOT_NUMBER": {
+      "description": "Enter your Bot WhatsApp Number with country code (e.g. 923001234567)",
       "required": true
+    },
+    "PREFIX": {
+      "description": "Enter your bot command prefix (default: .)",
+      "required": false
+    },
+    "OWNER_NAME": {
+      "description": "Enter Owner Name",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Enter Bot Name",
+      "required": false
+    },
+    "AUTO_STATUS_VIEW": {
+      "description": "Enable auto status view? (true/false)",
+      "required": false
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Keep bot always online? (true/false)",
+      "required": false
     }
   },
   "scripts": {
