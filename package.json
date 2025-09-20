@@ -1,0 +1,18 @@
+{
+  "name": "bilal-md-public",
+  "version": "1.0.0",
+  "description": "Public repo to deploy Bilal-MD bot (clones private repo)",
+  "main": "start.sh",
+  "scripts": {
+    "start": "sh start.sh"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "bilal-md",
+    "heroku",
+    "public"
+  ],
+  "author": "BilalTech05",
+  "license": "MIT"
+}
